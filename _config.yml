@@ -41,7 +41,6 @@ copyright: "COPYRIGHT © 2017-2019 BEN GOHLKE"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

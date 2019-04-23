@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   the technology industry in general as well as tutorials, a podcast, and video-based
   training materials for breaking into tech and learning to program.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wwww.bengohlke.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.bengohlke.com" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Ben Gohlke
   twitter: ferrousguy
@@ -76,8 +76,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - /docs # ignore Basically Basic sample site
-  - /example # ignore Basically Basic dev site
 
 # Collections
 collections:

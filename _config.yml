@@ -25,7 +25,7 @@ url: "https://bengohlke.com" # the base hostname & protocol for your site, e.g. 
 author:
   name: Ben Gohlke
   twitter: ferrousguy
-  picture: /bengohlke.com/assets/images/avatar-blog.png
+  picture: /assets/images/avatar-blog.png
 twitter_username:
 github_username: jcgohlke
 logo: # path of site logo, e.g. "/assets/images/logo.png"

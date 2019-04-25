@@ -1,5 +1,5 @@
 ---
-title: "Your First Swift Program"
+title: "Data Types + Math = Fun"
 ---
 
 This lesson provides additional exploration of various data types. You'll learn how to decide which type to use, how to manipulate different values and how to convert between types.

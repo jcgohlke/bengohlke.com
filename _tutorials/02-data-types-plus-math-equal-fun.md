@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Data Types + Math = Fun"
 ---
 

@@ -1,0 +1,127 @@
+{
+    "basics": {
+      "name": "Joben Gohlke",
+      "label": "iOS Developer and Educator",
+      "website": "https://www.bengohlke.com",
+      "profiles": [{
+        "network": "Twitter",
+        "username": "FerrousGuy",
+        "url": "http://twitter.com/ferrousguy"
+      },{
+          "network": "LinkedIn",
+          "username": "bgohlke",
+          "url": "https://linkedin.com/in/bgohlke"
+      }]
+    },
+    "work": [{
+      "company": "Lambda School",
+      "position": "iOS Instructor",
+      "website": "https://www.lambdaschool.com",
+      "startDate": "2019-04-01",
+      "endDate": "current",
+      "summary": "Lead cohorts of dozens of students at a time to learn the fundamentals of software development, mobile design, and iOS architecture in a virtual, live classroom setting."
+    },{
+      "company": "StackPath",
+      "position": "Senior Application Developer",
+      "website": "https://www.stackpath.com",
+      "startDate": "2017-11-06",
+      "endDate": "2019-03-15",
+      "summary": "Built iOS applications for several different VPN brands owned by StackPath. Worked with custom framework used on iOS and Mac."
+    },{
+      "company": "The Iron Yard",
+      "position": "Mentor Instructor & Curriculum Lead for Mobile",
+      "website": "",
+      "startDate": "2015-01-05",
+      "endDate": "2017-10-27",
+      "summary": "Taught 7 cohorts, comprising dozens of students. Managed the development of Mobile curriculum and provided mentorship and guidance to other instructors."
+    },{
+      "company": "BlueToad, Inc.",
+      "position": "Senior iOS Developer",
+      "website": "https://www.bluetoad.com",
+      "startDate": "2014-04-15",
+      "endDate": "2014-12-30",
+      "summary": "Implemented a major UI and structural overhaul of the code base for a large iOS application. Managed team of three overseas iOS developers."
+    },{
+      "company": "SecureNet Technologies",
+      "position": "Senior iOS Developer",
+      "website": "https://www.securenettech.com",
+      "startDate": "2013-11-01",
+      "endDate": "2014-03-30",
+      "summary": "Built a native iOS application using an existing web-based application as reference. Used by security system technicians during home installs."
+    },{
+      "company": "Presidio",
+      "position": "Senior iOS Developer - Contractor",
+      "website": "https://www.presidio.com",
+      "startDate": "2013-02-15",
+      "endDate": "2013-06-15",
+      "summary": "Built a native iOS app for tracking expense report receipt images."
+    },{
+      "company": "Transaction Data Systems",
+      "position": "Lead iOS Developer",
+      "website": "https://www.transactiondatasystems.com",
+      "startDate": "2010-05-15",
+      "endDate": "2013-02-01",
+      "summary": "Designed and built an iPad application for managing deliveries from pharmacies to their customers, both commercial and residential."
+    },{
+      "company": "Transaction Data Systems",
+      "position": "Software Engineer",
+      "website": "https://www.transactiondatasystems.com",
+      "startDate": "2009-01-05",
+      "endDate": "2010-05-01",
+      "summary": "Worked with C# and .NET to develop Windows Mobile applications. Used Java to create a backup solution and wrote several shell scripts."
+    },{
+      "company": "Northrup Grumman",
+      "position": "Jr. Software Engineer",
+      "website": "https://www.stackpath.com",
+      "startDate": "2008-04-01",
+      "endDate": "2008-12-15",
+      "summary": "Responsible for a Java-based reporting tool. Performed a UI and back- end rewrite of the tool to increase its effectiveness."
+    }],
+    "volunteer": [{
+      "organization": "iOS Orlando",
+      "position": "Organizer",
+      "website": "https://www.meetup.com/iOS-Orlando/",
+      "startDate": "2018-01-01",
+      "endDate": "current",
+      "summary": "Took over organization and became responsible to plan and host iOS meetups for the Orlando-based group.",
+      "highlights": [
+        "Began livestreaming program for spreading the meetup beyond Orlando.",
+        "Held a WWDC Keynote viewing party in partnership with Full Sail University in 2018."
+      ]
+    },{
+      "organization": "iOS Orlando",
+      "position": "Member",
+      "website": "https://www.meetup.com/iOS-Orlando/",
+      "startDate": "2012-09-19",
+      "endDate": "2018-01-01",
+      "summary": "Participated in meetup events and have spoken extensively as a guest."
+    }],
+    "education": [{
+      "institution": "University of Central Florida",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2002-09-15",
+      "endDate": "2008"
+    }],
+    "skills": [{
+      "name": "iOS Development",
+      "level": "Master",
+      "keywords": [
+        "Swift",
+        "Objective-C",
+        "Cocoa Touch"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Scuba Diving",
+      "keywords": [
+        "sealife",
+        "ship wrecks",
+        "coral reefs"
+      ]
+    }]
+  }

@@ -36,6 +36,7 @@ google_fonts:
 navigation_pages:
   - tutorials.md
   - about.md
+  - cv.md
   - posts.md
   - tags.md
   - categories.md

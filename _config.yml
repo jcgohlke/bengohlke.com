@@ -26,7 +26,7 @@ author:
   name: Ben Gohlke
   twitter: ferrousguy
   picture: /assets/images/avatar-blog.png
-twitter_username:
+twitter_username: ferrousguy
 github_username: jcgohlke
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: false # true, false (default)
@@ -98,5 +98,5 @@ defaults:
       path: "_tutorials"
       type: tutorials
     values:
-      layout: post
+      layout: page
       read_time: true

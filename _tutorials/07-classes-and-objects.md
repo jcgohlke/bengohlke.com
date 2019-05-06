@@ -1,9 +1,21 @@
 ---
 layout: page
 title: "Swift Classes and Objects"
+introduction: |
+    This lesson dives into the principles of classes and objects, concepts fundamental to object-oriented programming. You'll learn how to build your own classes in Swift and then use those classes in other parts of your code as objects.
 ---
 
-This lesson dives into the principles of classes and objects, concepts fundamental to object-oriented programming. You'll learn how to build your own classes in Swift and then use those classes in other parts of your code as objects.
+Part of a series on foundational Swift concepts:
+
+1. [Your First Swift Program]({% link _tutorials/01-your-first-swift-program.md %})
+2. [Data Types + Math = Fun]({% link _tutorials/02-data-types-plus-math-equal-fun.md %})
+3. [Collections]({% link _tutorials/03-collections.md %})
+4. [Control Flow]({% link _tutorials/04-swift-control-flow.md %})
+5. [Optionals]({% link _tutorials/05-optionals.md %})
+6. [Functions]({% link _tutorials/06-functions.md %})
+7. Classes and Objects
+
+---
 
 __All code presented here is compatible with Swift 4.2.__
 
@@ -13,7 +25,7 @@ Functions are great. They allow the programmer to group instructions into logica
 
 A *class* is a grouping of code used to create *objects*. You can think of the class as the blueprint, and the object as the thing made using the blueprint as a guide. Using our above example, a specific car is the object, say a blue Honda Civic. The blueprint we use to build that car is a class named `Car`. Let's look at a code example:
 
-```swift
+{% highlight swift linenos %}
 class Car
 {
   let make: String
@@ -28,7 +40,7 @@ class Car
 }
 
 let hondaCivic = Car(make: "Honda", model:"Civic", color: "blue")
-```
+{% endhighlight %}
 
 This is a blueprint for creating `Car` objects. The `Car` class has three properties, `make`, `model`, and `color`. To create an *instance* of the `Car` class (another way to describe an object), you must provide all three attributes, which we do when we *instantiate* a `Car` object on the last line. The computer will set up the object using the `init` function from the class. This function maps the arguments that are *passed into* it to the *instance properties* of the object. Again, understanding every bit of the above example isn't necessary right now. The important concept here is that real-world systems can be modeled in code with classes to define what it *is* and what it *does*. The Swift compiler can then use this blueprint to create *instances* of the class (objects) using specific data.
 
@@ -38,7 +50,7 @@ The above class allows us to create as many `Car` objects as we'd like, but once
 
 (Class fully rewritten below for clarity)
 
-```swift
+{% highlight swift linenos %}
 class Car
 {
   let make: String
@@ -69,7 +81,7 @@ class Car
 
 let hondaCivic = Car(make: "Honda", model:"Civic", color: "blue")
 hondaCivic.drive()
-```
+{% endhighlight %}
 
 The class above is the same as the previous example, with the following additions:
 

@@ -1,9 +1,21 @@
 ---
 layout: page
 title: "Optionals"
+introduction: |
+    This lesson explains what optional values are and how to create them. You'll also learn how to check the state of optional values and how to safely use them in code.
 ---
 
-This lesson explains what optional values are and how to create them. You'll also learn how to check the state of optional values and how to safely use them in code.
+Part of a series on foundational Swift concepts:
+
+1. [Your First Swift Program]({% link _tutorials/01-your-first-swift-program.md %})
+2. [Data Types + Math = Fun]({% link _tutorials/02-data-types-plus-math-equal-fun.md %})
+3. [Collections]({% link _tutorials/03-collections.md %})
+4. [Control Flow]({% link _tutorials/04-swift-control-flow.md %})
+5. Optionals
+6. [Functions]({% link _tutorials/06-functions.md %})
+7. [Classes and Objects]({% link _tutorials/07-classes-and-objects.md %})
+
+---
 
 __All code presented here is compatible with Swift 4.2.__
 
@@ -25,11 +37,11 @@ What do you think prints to the screen here? To find out, look inside the print 
 
 What would happen if we added a line between the first and second code snippets above and set `possibleName` to a particular string? Would the output of the print statement be affected? 
 
-```swift
+{% highlight swift linenos %}
 var possibleName: String?
 possibleName = "Steve Rogers"
 print(possibleName == nil)
-```
+{% endhighlight %}
 
 Since the value of `possibleName` would no longer be `nil`, the expression would evaluate to `false`, changing the output of the print statement accordingly.
 
@@ -39,7 +51,7 @@ Why are we checking the state of the optional at all? Well, if you try to use an
 
 ### Optional Binding
 
-```swift
+{% highlight swift linenos %}
 if let name = possibleName
 {
   print("Hello, \(name)!")
@@ -48,7 +60,7 @@ else
 {
   print("Hello, Friend!")
 }
-```
+{% endhighlight %}
 
 The `if` statement above is used to check the value of the optional variable `possibleName`. Let's unpack what's happening here. If the value of `possibleName` is not `nil`, that value is *unwrapped*, assigned to the constant `name` and the expression overall in the conditional evaluates to `true`, allowing the code inside the block to execute. If however, the value of `possibleName` is `nil`, the constant `name` is never created, the expression overall evaluates to `false`, and the line inside the `else` block is executed instead. This technique is referred to as *optional binding*, meaning the optional is bound to the constant if it has a value. Also, realize the constant `name` is only available for use inside the `if` block. This is because its *scope* is confined to the `if` block because it was created in the conditional.
 
@@ -73,9 +85,9 @@ The `if` statement above is used to check the value of the optional variable `po
 
 Another way to deal with optional values when they need to be used is to assign a default value, in case no value exists when accessed. The `??` is used after an optional inside the string interpolation expression to indicate a default value if the optional is in fact `nil`.
 
-```swift
+{% highlight swift linenos %}
 print("Hello, \(possibleName ?? "Friend")!")
-```
+{% endhighlight %}
 
 Both the code in the if-let block and the example above accomplish the same goal, printing "Hello, " followed by either a name if one is provided in `possibleName`, or the default name "Friend" if not. While you might prefer the second approach because of its concise nature, both approaches have their time and place and neither are universally applicable to all problems.
 
@@ -83,13 +95,13 @@ Both the code in the if-let block and the example above accomplish the same goal
 
 If you know for sure that an optional has a value (not equal to `nil`), you can place an `!` exclamation point after the name of the optional to *force unwrap* it. WARNING: force unwrapping an optional that is actually `nil` will cause a runtime error (i.e. a crash). So only use the `!` if you know for sure the optional has a value. See an example below:
 
-```swift
+{% highlight swift linenos %}
 var possibleNumber: Int? = 6
 if possibleNumber != nil
 {
   print("The value of possibleNumber is \(possibleNumber!)")
 }
-```
+{% endhighlight %}
 
 In this example, the print statement won't cause a crash because we first check that `possibleNumber` is NOT equal to `nil`. If we hadn't set a value at the declaration of `possibleNumber`, the conditional would evaluate to `false` and the line that force unwraps the optional would never run.
 

@@ -1,9 +1,21 @@
 ---
 layout: page
 title: "Swift Collections"
+introduction: |
+    This lesson shows how objects can be grouped using different collection data types, like arrays and dictionaries.
 ---
 
-This lesson shows how objects can be grouped using different collection data types, like arrays and dictionaries.
+Part of a series on foundational Swift concepts:
+
+1. [Your First Swift Program]({% link _tutorials/01-your-first-swift-program.md %})
+2. [Data Types + Math = Fun]({% link _tutorials/02-data-types-plus-math-equal-fun.md %})
+3. Collections
+4. [Control Flow]({% link _tutorials/04-swift-control-flow.md %})
+5. [Optionals]({% link _tutorials/05-optionals.md %})
+6. [Functions]({% link _tutorials/06-functions.md %})
+7. [Classes and Objects]({% link _tutorials/07-classes-and-objects.md %})
+
+---
 
 __All code presented here is compatible with Swift 4.2.__
 
@@ -57,11 +69,11 @@ Since the objects in the two arrays are neither the equivalent nor in the same o
 
 Dictionaries are the other major collection type in Swift. They are known by other names in other languages: hashes in Ruby and Perl, maps in Java and Go, and hash tables in Lisp. The concept is the same in every language though. Dictionaries can be described as a collection of *key-value* pairs. Rather than referencing a value with an index like in an array, a dictionary *value* is fetched using a *key*. See the example below:
 
-```swift
+{% highlight swift linenos %}
 var occupations = ["Jean-Luc Picard": "Captain", "Geordi LaForge": "Chief Engineer"]
 let geordisJob = occupations["Geordi LaForge"]
 occupations["Beverly Crusher"] = "Chief Medical Officer"
-```
+{% endhighlight %}
 
 The first line above shows how to create a new dictionary from scratch. Just like with arrays `[]` brackets are used to bound the dictionary elements. Also like an array, each key-value pair is separated by a comma. Unique to a dictionary however is the formation of the pair itself. The object on the left of the `:` is the key, and the right-side object is the value. Just like with arrays, the datatypes for each can be any object, as long as they are consistent throughout the dictionary. So a dictionary with `String` keys and `Int` values must contain pairs only with these two specific types.
 

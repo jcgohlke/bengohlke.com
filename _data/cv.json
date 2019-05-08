@@ -2,7 +2,7 @@
     "basics": {
       "name": "Joben Gohlke",
       "label": "iOS Developer and Educator",
-      "website": "https://www.bengohlke.com",
+      "website": "https://bengohlke.com",
       "profiles": [{
         "network": "Twitter",
         "username": "FerrousGuy",
@@ -59,16 +59,9 @@
       "company": "Transaction Data Systems",
       "position": "Lead iOS Developer",
       "website": "https://www.transactiondatasystems.com",
-      "startDate": "2010-05-15",
-      "endDate": "2013-02-01",
-      "summary": "Designed and built an iPad application for managing deliveries from pharmacies to their customers, both commercial and residential."
-    },{
-      "company": "Transaction Data Systems",
-      "position": "Software Engineer",
-      "website": "https://www.transactiondatasystems.com",
       "startDate": "2009-01-05",
-      "endDate": "2010-05-01",
-      "summary": "Worked with C# and .NET to develop Windows Mobile applications. Used Java to create a backup solution and wrote several shell scripts."
+      "endDate": "2013-02-01",
+      "summary": "Designed and built an iPad application for managing deliveries from pharmacies to their customers, both commercial and residential. Worked with C# and .NET to develop Windows Mobile applications. Used Java to create a backup solution and wrote several shell scripts."
     },{
       "company": "Northrup Grumman",
       "position": "Jr. Software Engineer",

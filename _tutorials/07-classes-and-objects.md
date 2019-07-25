@@ -1,23 +1,12 @@
 ---
-layout: page
 title: "Swift Classes and Objects"
-introduction: |
+permalink: /tutorials/swift-classes-and-objects/
+excerpt: |
     This lesson dives into the principles of classes and objects, concepts fundamental to object-oriented programming. You'll learn how to build your own classes in Swift and then use those classes in other parts of your code as objects.
 ---
 
-Part of a series on foundational Swift concepts:
-
-1. [Your First Swift Program]({% link _tutorials/01-your-first-swift-program.md %})
-2. [Data Types + Math = Fun]({% link _tutorials/02-data-types-plus-math-equal-fun.md %})
-3. [Collections]({% link _tutorials/03-collections.md %})
-4. [Control Flow]({% link _tutorials/04-swift-control-flow.md %})
-5. [Optionals]({% link _tutorials/05-optionals.md %})
-6. [Functions]({% link _tutorials/06-functions.md %})
-7. Classes and Objects
-
----
-
-__All code presented here is compatible with Swift 4.2.__
+All code presented here is compatible with Swift 4.2.
+{: .notice--info}
 
 ## Classes
 

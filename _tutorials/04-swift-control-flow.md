@@ -1,23 +1,12 @@
 ---
-layout: page
 title: "Swift Control Flow"
-introduction: |
+permalink: /tutorials/swift-control-flow/
+excerpt: |
     You'll learn how to control the flow of your code with things like if-statements and for-loops.
 ---
 
-Part of a series on foundational Swift concepts:
-
-1. [Your First Swift Program]({% link _tutorials/01-your-first-swift-program.md %})
-2. [Data Types + Math = Fun]({% link _tutorials/02-data-types-plus-math-equal-fun.md %})
-3. [Collections]({% link _tutorials/03-collections.md %})
-4. Control Flow
-5. [Optionals]({% link _tutorials/05-optionals.md %})
-6. [Functions]({% link _tutorials/06-functions.md %})
-7. [Classes and Objects]({% link _tutorials/07-classes-and-objects.md %})
-
----
-
-__All code presented here is compatible with Swift 4.2.__
+All code presented here is compatible with Swift 4.2.
+{: .notice--info}
 
 Now that you have an idea of how to write basic instructions (creating and manipulating constants and variables) you will want to be able to form more complicated blocks of instructions. Enter control flow. The concepts that follow allow the program order of execution to be modified at *runtime*. This means that you can set up different forks in the road and the computer will choose a particular road when the program executes. This is commonly used when you might have two or more sets of instructions you'd like to run, but you won't know which is appropriate until the application is running and it contains live data. Let's take a look at the first control flow mechanism, the *if statement*.
 
@@ -42,7 +31,8 @@ You might recognize the first couple lines from the previous lesson. Let’s use
 
 The two arrays are not equal, so the instructions inside the `if` clause are skipped and the instructions inside `else` are run instead.
 
-NOTE: several languages demand that a set of `()` parentheses be used to wrap the conditional expression after the word `if`. In Swift these parentheses are allowed but not required. So feel free to use them if they help you and skip them if they don't.
+**NOTE:** several languages demand that a set of `()` parentheses be used to wrap the conditional expression after the word `if`. In Swift these parentheses are allowed but not required. So feel free to use them if they help you and skip them if they don't.
+{: .notice--warning}
 
 ## Switch it Up
 
@@ -69,7 +59,8 @@ switch a
 
 As you can see above, the `switch` block is bounded by a set of `{}` braces. The value that you're "switching" with is listed after the reserved keyword `switch`. Each possible outcome is listed inside the braces as a `case`. A few notes about cases: values can be chained together (see the third case), they can be a range (every number between the lower and upper bound, see the fourth case), and Swift requires every `switch` block to include a `default` case (see the final case). The default is a catch-all to cover possible values that haven’t been enumerated by specific cases. 
 
-NOTE: the value switched can be of any object type, a difference with some other languages that restrict the data types possible.
+**NOTE:** the value switched can be of any object type, a difference with some other languages that restrict the data types possible.
+{: .notice--warning}
 
 Bottom line: many different cases can be listed (and each case can have multiple lines of instructions), but at runtime, since the value of the switched variable or constant (in this example, `a`) will only be satisfied by one case, only one block of instructions will run. All other cases will be skipped.
 
@@ -121,24 +112,8 @@ repeat
 
 The above block is essentially the same as the previous `while` example, with one important difference. The block inside the brackets always executes at-least once, and then again in a loop if the expression is `true`. `while`  loops can run 0 or more times, whereas `repeat-while` loops can run 1 or more times. Deciding which to use in your code is a decision that will be based on the specific problem you’re trying to solve.
 
-<style>
-	.box {
-	display: inline-block;
-	height: 300px;
-    padding: 1em;
-    margin-bottom: 3em;
-	border: 4px solid;
-	border-radius: 8px;
-	color: #525559;
-    }
-    .box p {
-        color: #181C22;
-    }
-</style>
-<div class="box">
-	<h3>Did You Know?</h3>
-	<p>The repeat-while construct exists in other languages, where it’s known as do-while. In fact, until Version 2, it was known as do-while even in Swift. Apple changed the name to increase readability and user-friendliness of the concept. This is something they’ve done all over the language and will continue to do for a while. Be sure to keep pace with Apple’s changes as some of them might break compatibility of your source code. Look <a href="https://developer.apple.com/swift/">here</a> for all things Swift.</p>
-</div>
+**Did You Know?** The `repeat-while` construct exists in other languages, where it’s known as do-while. In fact, until Version 2, it was known as do-while even in Swift. Apple changed the name to increase readability and user-friendliness of the concept. This is something they’ve done all over the language and will continue to do for a while. Be sure to keep pace with Apple’s changes as some of them might break compatibility of your source code. Look [here](https://developer.apple.com/swift/) for all things Swift.
+{: .notice}
 
 ## Recap
 Let's take a look at the concepts covered in this lesson:

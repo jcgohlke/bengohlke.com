@@ -1,4 +1,5 @@
 ---
+classes: wide
 title: "Junior Developers, Apply!"
 categories:
   - tech_education

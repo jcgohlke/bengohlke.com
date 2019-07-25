@@ -1,4 +1,5 @@
 ---
+classes: wide
 title: "A Designed Career"
 categories:
   - tech_education

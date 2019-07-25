@@ -1,23 +1,12 @@
 ---
-layout: page
 title: "Data Types + Math = Fun"
-introduction: |
+permalink: /tutorials/data-types-plus-math-equal-fun/
+excerpt: |
     This lesson provides additional exploration of various data types. You'll learn how to decide which type to use, how to manipulate different values and how to convert between types.
 ---
 
-Part of a series on foundational Swift concepts:
-
-1. [Your First Swift Program]({% link _tutorials/01-your-first-swift-program.md %})
-2. Data Types + Math = Fun
-3. [Collections]({% link _tutorials/03-collections.md %})
-4. [Control Flow]({% link _tutorials/04-swift-control-flow.md %})
-5. [Optionals]({% link _tutorials/05-optionals.md %})
-6. [Functions]({% link _tutorials/06-functions.md %})
-7. [Classes and Objects]({% link _tutorials/07-classes-and-objects.md %})
-
----
-
-__All code presented here is compatible with Swift 4.2.__
+All code presented here is compatible with Swift 4.2.
+{: .notice--info}
 
 ## What is a Literal?
 

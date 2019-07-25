@@ -1,23 +1,12 @@
 ---
-layout: page
 title: "Your First Swift Program"
-introduction: |
+permalink: /tutorials/your-first-swift-program/
+excerpt: |
     Get your first look at some of the foundational concepts of the Swift programming language with the following explanations and examples.
 ---
 
-Part of a series on foundational Swift concepts:
-
-1. Your First Swift Program
-2. [Data Types + Math = Fun]({% link _tutorials/02-data-types-plus-math-equal-fun.md %})
-3. [Collections]({% link _tutorials/03-collections.md %})
-4. [Control Flow]({% link _tutorials/04-swift-control-flow.md %})
-5. [Optionals]({% link _tutorials/05-optionals.md %})
-6. [Functions]({% link _tutorials/06-functions.md %})
-7. [Classes and Objects]({% link _tutorials/07-classes-and-objects.md %})
-
----
-
-__All code presented here is compatible with Swift 4.2.__
+All code presented here is compatible with Swift 4.2.
+{: .notice--info}
 
 ## What is Swift and Who Created It?
 

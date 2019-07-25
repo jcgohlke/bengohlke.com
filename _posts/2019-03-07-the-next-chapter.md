@@ -1,6 +1,10 @@
 ---
+classes: wide
 title: "The Next Chapter"
-image: /assets/images/lambda-logo.png
+header:
+  teaser: /assets/images/lambda-logo.png
+  image: /assets/images/lambda-logo.png
+  image_description: "Lambda School company logo"
 categories:
   - announcements
   - tech_education

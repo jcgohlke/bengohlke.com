@@ -1,23 +1,12 @@
 ---
-layout: page
 title: "Swift Functions"
-introduction: |
+permalink: /tutorials/swift-functions/
+excerpt: |
     In this lesson, you'll get an introduction on how to group instructions into logical units (functions) and then execute these groups on demand.
 ---
 
-Part of a series on foundational Swift concepts:
-
-1. [Your First Swift Program]({% link _tutorials/01-your-first-swift-program.md %})
-2. [Data Types + Math = Fun]({% link _tutorials/02-data-types-plus-math-equal-fun.md %})
-3. [Collections]({% link _tutorials/03-collections.md %})
-4. [Control Flow]({% link _tutorials/04-swift-control-flow.md %})
-5. [Optionals]({% link _tutorials/05-optionals.md %})
-6. Functions
-7. [Classes and Objects]({% link _tutorials/07-classes-and-objects.md %})
-
----
-
-__All code presented here is compatible with Swift 4.2.__
+All code presented here is compatible with Swift 4.2.
+{: .notice--info}
 
 The best part of computer programming is the ability to leverage the strengths of the computer to perform tasks that would be tedious and error prone if done by a human. Take, for example, calculating a tip on a restaurant bill. The math isn't too difficult, but one of the computer's biggest strengths is fast and reliable arithmetic. Let's write some code to calculate the tip on a bill.
 

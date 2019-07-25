@@ -1,6 +1,10 @@
 ---
+classes: wide
 title: "Ready Player Me"
-image: /assets/images/ready-player-one.jpg
+header:
+  teaser: /assets/images/ready-player-one.jpg
+  image: /assets/images/ready-player-one.jpg
+  image_description: "Man using VR headset"
 categories:
   - tech
   - VR

@@ -3,7 +3,6 @@ title: Tutorials
 layout: collection
 permalink: /tutorials/
 collection: tutorials
-entries_layout: grid
 ---
 
 See below for my new tutorial series on getting started with iOS development. I’ll start off by covering the basics of the two primary languages used in building iOS apps: Objective-C and Swift.

@@ -8,81 +8,172 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-lang: en-US
-title: Ben Gohlke
-email:
+remote_theme: "mmistakes/minimal-mistakes@4.16.5"
+minimal_mistakes_skin: "contrast"
+
+# Site Settings
+locale: "en-US"
+title: &name "Ben Gohlke"
+title_separator: "-"
+name: *name
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website of Ben Gohlke. Provides insights into tech education and
   the technology industry in general as well as tutorials, a podcast, and video-based
   training materials for breaking into tech and learning to program.
+url: "https://bengohlke.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bengohlke.com" # the base hostname & protocol for your site, e.g. http://example.com
-author:
-  name: Ben Gohlke
-  twitter: ferrousguy
-  picture: /assets/images/avatar-blog.png
-twitter_username: ferrousguy
-github_username: jcgohlke
-logo: # path of site logo, e.g. "/assets/images/logo.png"
-search: false # true, false (default)
-search_full_content: false # true, false (default)
+repository: "jcgohlke/bengohlke.com"
+logo: /assets/images/logo.png
+
+search: true # false (default)
+search_full_content: false # false (default)
 search_provider: # lunr (default), algolia
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
+
+# SEO Related
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Social
+twitter:
+  username: "ferrousguy"
+og_image: /assets/images/open-graph-default-logo.png # open graph/twitter default site image
+
+# Analytics
+analytics:
+  provider: "google"
+  google:
+    tracking_id: UA-139312872-1
+    anonymize_ip: false
+
+# Site Author
+author:
+  name             : "Ben Gohlke"
+  avatar           : /assets/images/author-avatar.png
+  bio              : "Bicycle riding, scuba diving, junior mentoring, lego building, root beer enthusiast. I also love coding."
+  location         : "Orlando, FL"
+  email            :
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ferrousguy"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jcgohlke"
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ferrousguy"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jcgohlke"
+
 copyright: "COPYRIGHT © 2017-2019 BEN GOHLKE"
 
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
 feed:
   path: atom.xml
-google_analytics: UA-139312872-1
 
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
+  # Plugins (previously gems:)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
 exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
   - .asset-cache
   - .bundle
-  - .codeclimate.yml
-  - .editorconfig
-  - .gitattributes
   - .jekyll-assets-cache
   - .sass-cache
-  - .scss-lint.yml
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
   - CHANGELOG
+  - config
   - Gemfile
-  - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
   - LICENSE
+  - log
   - node_modules
+  - package.json
   - Rakefile
   - README
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 10 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Collections
 collections:
   tutorials:
     output: true
     permalink: /:collection/:path/
+  
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
 # Front Matter Defaults
 defaults:
@@ -91,12 +182,24 @@ defaults:
       path: "_posts"
       type: posts
     values:
-      layout: post
+      layout: single
+      author_profile: true
       read_time: true
+      comments: false
+      share: true
+      related: true
   # _tutorials
   - scope:
       path: "_tutorials"
       type: tutorials
     values:
-      layout: page
+      layout: single
+      toc: true
+      toc_label: "In this lesson"
+      author_profile: false
       read_time: true
+      comments: false
+      share: true
+      related: false
+      sidebar:
+        nav: "tutorials"

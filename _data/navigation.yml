@@ -1,0 +1,45 @@
+main:
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "Blog"
+    url: /posts/
+  - title: "Podcast"
+    url: https://mvc.fm
+  - title: "About"
+    url: /about/
+
+tutorials:
+  - title: Foundational Swift
+    children:
+      - title: "Your First Swift Program"
+        url: /tutorials/your-first-swift-program/
+      - title: "Data Types + Math = Fun"
+        url: /tutorials/data-types-plus-math-equal-fun/
+      - title: "Collections"
+        url: /tutorials/swift-collections/
+      - title: "Control Flow"
+        url: /tutorials/swift-control-flow/
+      - title: "Optionals"
+        url: /tutorials/optionals/
+      - title: "Functions"
+        url: /tutorials/swift-functions/
+      - title: "Classes and Objects"
+        url: /tutorials/swift-classes-and-objects/
+  - title: Foundational Objective-C
+    children:
+      - title: "Your First Objective-C Program"
+        url: /tutorials/your-first-objective-c-program/
+      - title: "Data Types and Mutability"
+        url: /tutorials/data-types-and-mutability/
+      - title: "Arithmetic Can be Fun"
+        url: /tutorials/arithmetic-can-be-fun/
+      - title: "Strings"
+        url: /tutorials/objective-c-strings/
+      - title: "Pointers"
+        url: /tutorials/pointers/
+      - title: "Collections"
+        url: /tutorials/objective-c-collections/
+      - title: "Control Flow"
+        url: /tutorials/objective-c-control-flow/
+      - title: "Classes and Objects"
+        url: /tutorials/objective-c-classes-and-objects/

@@ -74,7 +74,7 @@ footer:
 copyright: "COPYRIGHT © 2017-2019 BEN GOHLKE"
 
 feed:
-  path: atom.xml
+  path: feed.xml
 
   # Plugins (previously gems:)
 plugins:
@@ -88,6 +88,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist

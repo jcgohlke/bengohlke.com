@@ -4,7 +4,7 @@ main:
   - title: "Blog"
     url: /posts/
   - title: "Podcast"
-    url: https://mvc.fm
+    url: https://www.mvc.fm
   - title: "About"
     url: /about/
 

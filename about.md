@@ -10,4 +10,4 @@ In a completely unexpected turn, I became a teacher 4 years ago. I taught Mobile
 
 Since my time at TIY, I've worked to continue to build environments for junior developers and people aspiring to be to flourish. I run the local iOS Developer Meetup ([@iOSOrlando on Twitter](https://www.twitter.com/iosorlando)) and regularly give talks on topics from beginner level to advanced.
 
-I also recently started a tech education podcast with an old colleague and friend, Brian Gates called [Model View Conversation](https://mvc.fm). Be sure to check out our website and subscribe to the podcast if you are trying to break into tech and need some help getting started. Or if you just want to learn more about the industry and maybe advance to the next level.
+I also recently started a tech education podcast with an old colleague and friend, Brian Gates called [Model View Conversation](https://www.mvc.fm). Be sure to check out our website and subscribe to the podcast if you are trying to break into tech and need some help getting started. Or if you just want to learn more about the industry and maybe advance to the next level.

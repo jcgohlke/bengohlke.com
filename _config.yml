@@ -197,6 +197,7 @@ defaults:
       layout: single
       toc: true
       toc_label: "In this lesson"
+      toc_sticky: true
       author_profile: false
       read_time: true
       comments: false

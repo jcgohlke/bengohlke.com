@@ -1,6 +1,8 @@
 ---
 title: "Optionals"
 permalink: /tutorials/optionals/
+tags: 
+  - swift
 excerpt: |
     This lesson explains what optional values are and how to create them. You'll also learn how to check the state of optional values and how to safely use them in code.
 ---

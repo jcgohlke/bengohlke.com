@@ -1,6 +1,8 @@
 ---
 title: "Swift Classes and Objects"
 permalink: /tutorials/swift-classes-and-objects/
+tags: 
+  - swift
 excerpt: |
     This lesson dives into the principles of classes and objects, concepts fundamental to object-oriented programming. You'll learn how to build your own classes in Swift and then use those classes in other parts of your code as objects.
 ---

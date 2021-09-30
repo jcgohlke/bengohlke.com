@@ -1,6 +1,8 @@
 ---
 title: "Swift Collections"
 permalink: /tutorials/swift-collections/
+tags: 
+  - swift
 excerpt: |
     This lesson shows how objects can be grouped using different collection data types, like arrays and dictionaries.
 ---

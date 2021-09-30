@@ -1,6 +1,8 @@
 ---
 title: "Swift Control Flow"
 permalink: /tutorials/swift-control-flow/
+tags: 
+  - swift
 excerpt: |
     You'll learn how to control the flow of your code with things like if-statements and for-loops.
 ---

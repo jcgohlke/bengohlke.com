@@ -1,6 +1,8 @@
 ---
 title: "Your First Swift Program"
 permalink: /tutorials/your-first-swift-program/
+tags: 
+  - swift
 excerpt: |
     Get your first look at some of the foundational concepts of the Swift programming language with the following explanations and examples.
 ---

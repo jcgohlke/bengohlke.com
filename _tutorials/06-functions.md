@@ -1,6 +1,8 @@
 ---
 title: "Swift Functions"
 permalink: /tutorials/swift-functions/
+tags: 
+  - swift
 excerpt: |
     In this lesson, you'll get an introduction on how to group instructions into logical units (functions) and then execute these groups on demand.
 ---

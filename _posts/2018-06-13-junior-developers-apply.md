@@ -30,7 +30,7 @@ Have a GitHub profile with repositories that showcase your skills as a web devel
 
 Want to grab a position as an iOS developer and have a personal passion project in the App Store? Excellent! Give them the terms to search and put them on your resume.
 
-Just graduate from a bootcamp where you spent several intense weeks learning and practicing with the platform you're applying for? Wonderful! You know where it should go, right at the top.
+Just graduated from a bootcamp where you spent several intense weeks learning and practicing with the platform you're applying for? Wonderful! You know where it should go, right at the top.
 
 The bottom line -- mold your resume to the position or positions you are most interested in attracting. It's likely you'll be going after 1 kind of job for your first position, but don't be afraid to morph your resume over time as you advance in your career. Your experience is never a static entity, and neither should be the document that chronicles it.
 
